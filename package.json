@@ -1,0 +1,17 @@
+{
+  "name": "sbad",
+  "version": "1.0.0",
+  "description": "Signal backups are dumb",
+  "main": "out/index.js",
+  "author": "Voakie",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "start": "node out/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^18.13.0",
+    "typescript": "^4.9.5"
+  }
+}

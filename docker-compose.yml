@@ -1,0 +1,13 @@
+version: "3.6"
+
+services:
+  signal-bad:
+    container_name: signal-bad
+    build: .
+    environment:
+      BACKUP_DIR: /usr/backup # Do not change this - see volumes.source below
+      KEEP: 5
+    volumes:
+      - source: /home/voakie/SignalBackups
+        target: /usr/backup
+        type: bind
