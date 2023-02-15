@@ -18,6 +18,6 @@ The following environment variables are used:
 
 ### Docker
 
-    docker compose up
+Copy `docker-compose.example.yml` to `docker-compose.yml` and adjust the environment variables as needed. Then simply run:
 
-Make sure to adjust the `docker-compose.yml` for your specific setup
+    docker compose up
